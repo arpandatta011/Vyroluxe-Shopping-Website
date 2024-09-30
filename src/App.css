@@ -1,0 +1,16 @@
+html.dark {
+  background-color: #1a202c; /* Dark background */
+  color: #fff; /* Light text */
+}
+
+html.light {
+  background-color: #fff; /* Light background */
+  color: #000; /* Dark text */
+}
+.gradient-text {
+  background: linear-gradient(90deg, #7B68EE, #C71585, #FF1493); /* Example gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 2rem; /* Adjust font size as needed */
+}
